@@ -34,7 +34,7 @@ const endGame = (isDraw) => {
   if (isDraw) {
     winningMessageText.innerHTML = "Empate!"
   } else {
-    winningMessageText.innerHTML = isOTurn ? "O Venceu!" : "x Venceu!";
+    winningMessageText.innerHTML = isOTurn ? "O Venceu!" : "X Venceu!";
   }
 
   winningMessage.classList.add("show-winning-message");
